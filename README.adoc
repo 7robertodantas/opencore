@@ -1,0 +1,34 @@
+= Opencore EFI Folders
+
+*z390-designare* files
+~~~~~~~~~~~~~~~~~~~~~~
+
+:z390-designare-tutorial: https://www.youtube.com/watch?v=LRtJez4FZHQ[GIGABYTE Z390 DESIGNARE i9-9900K Dual Boot HACKINTOSH BUILD | Complete Guide! Latest Updates!]
+
+:post-install-filevault: https://dortania.github.io/OpenCore-Post-Install/universal/security.html#filevault[FileVault]
+
+Tested against 10.15.6 (Catalina). Everything seems to be running correctly, haven't tested the rear 3.5mm audio jacks, because I use USB headsets.
+
+Almost all settings explained in link:{z390-designare-tutorial} with some additional tweaks for USB Inject kexsts that made the bluetooth to be recognized and minor adjustments for  link:{post-install-filevault}.
+
+NOTE: Need to change _SystemUUID_ and _SystemSerialNumber_ in *config.plist* file. Currently it's set to [CHANGE-ME] in version control.
+
+=== Hardware
+
+|===
+| Component | Product 
+| CPU | Intel Core i9 9900K 
+| MB | Gigabyte Designare Z390 (rev 1.0) 
+| GPU | AMD Radeon RX 5700 XT XFX THIC II 
+| SSD | Sandisk Plus 1 TB 
+|===
+
+=== What works
+
+- Built in bluetooth
+- Shutdown / Restart / Sleep
+- USB 3.0/3/1
+- Thunderbold 3 (including charging and hotswapping)
+- Emulated NVRAM
+- NVMe
+- AFPS
