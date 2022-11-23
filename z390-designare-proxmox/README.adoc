@@ -5,7 +5,7 @@
 
 :post-install-filevault: https://dortania.github.io/OpenCore-Post-Install/universal/security.html#filevault[FileVault]
 
-Tested against 12.5 (Monterey). 
+Tested against 13.0.1 (Ventura). 
 
 NOTE: Need to change _SystemUUID_ and _SystemSerialNumber_ in *config.plist* file. Currently it's set to [CHANGE-ME] in version control.
 
