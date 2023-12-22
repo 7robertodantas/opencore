@@ -7,7 +7,7 @@
 
 :post-install-filevault: https://dortania.github.io/OpenCore-Post-Install/universal/security.html#filevault[FileVault]
 
-Tested against 11.4 (Big Sur). Everything seems to be running correctly, haven't tested the rear 3.5mm audio jacks, because I use USB headsets.
+Tested against 13.0.1 (Ventura).
 
 Almost all settings explained in link:{z390-designare-tutorial} with some additional tweaks for USB Inject kexsts that made the bluetooth to be recognized and minor adjustments for  link:{post-install-filevault}.
 
